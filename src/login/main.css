@@ -61,10 +61,10 @@
 }
 
 .kcLoginClass {
-    background: none;
-    background-color: #ffffff;
     padding: 0;
-    height: fit-content;
+    padding: 80px 0;
+    shrink: 0;
+    margin: auto;
 }
 
 .kcFormGroupClass {
@@ -73,6 +73,58 @@
     align-items: stretch;
     margin: 0;
     border: none;
-    background: #ffffff;
     width: 100%;
+}
+
+.kcHeaderClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kcHeaderWrapperClass {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 !important;
+}
+
+.kcSignUpClass {
+    width: 100%;
+    margin: 0 0 !important;
+}
+
+.kcInfoAreaWrapperClass {
+    padding: 10px 0 !important;
+}
+
+.kcFormCardClass {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kcHtmlClass {
+    background: none;
+    background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .kcFormCardClass {
+        width: 100% !important;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kcLoginClass {
+        width: 80%;
+        padding: 80px 0;
+        shrink: 0;
+        margin: auto;
+    }
 }

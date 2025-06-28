@@ -47,5 +47,12 @@ const classes = {
     kcFormSocialAccountListButtonClass: "",
     kcFormSocialAccountListClass: "",
     kcLoginClass: "",
-    kcFormGroupClass: ""
+    kcFormGroupClass: "",
+    kcHeaderWrapperClass: "",
+    kcSignUpClass: "",
+    kcInfoAreaWrapperClass: "",
+    kcFormCardClass: "",
+    kcHtmlClass: "",
+    kcBodyClass: "",
+    kcHeaderClass: ""
 } satisfies { [key in ClassKey]?: string };
