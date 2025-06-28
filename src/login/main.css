@@ -1,0 +1,78 @@
+.kcInputClass {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #cccccc;
+}
+
+.kcInputClass:active {
+    border: 2px solid #aaaaaa;
+}
+
+.kcFormSocialAccountListClass {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.kcFormSocialAccountListClass > * + * {
+    margin-top: 0.5rem;
+}
+
+.kcFormSocialAccountListButtonClass {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #eeeeee;
+    cursor: pointer;
+    width: 100%;
+}
+
+.kcButtonClass {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.kcButtonClass:focus {
+    outline: none;
+}
+
+.kcButtonClass:disabled {
+    background: linear-gradient(45deg, #aaa, #ccc);
+    color: #666;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+    opacity: 0.6;
+}
+
+.kcLoginClass {
+    background: none;
+    background-color: #ffffff;
+    padding: 0;
+    height: fit-content;
+}
+
+.kcFormGroupClass {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+    border: none;
+    background: #ffffff;
+    width: 100%;
+}
