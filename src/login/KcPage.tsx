@@ -54,5 +54,8 @@ const classes = {
     kcFormCardClass: "",
     kcHtmlClass: "",
     kcBodyClass: "",
-    kcHeaderClass: ""
+    kcHeaderClass: "",
+    kcLocaleMainClass: "",
+    kcInputGroup: "",
+    kcFormPasswordVisibilityButtonClass: ""
 } satisfies { [key in ClassKey]?: string };

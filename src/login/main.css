@@ -1,11 +1,25 @@
+.kcInputGroup {
+    position: relative;
+}
+
 .kcInputClass {
-    padding: 10px 20px;
+    width: 100%;
+    padding: 10px 36px 10px 16px;
     border-radius: 8px;
-    border: 2px solid #cccccc;
+    border: 1px solid #cccccc;
 }
 
 .kcInputClass:active {
-    border: 2px solid #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+
+.kcFormPasswordVisibilityButtonClass {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0%, -50%);
+    border: 0;
+    background: none;
 }
 
 .kcFormSocialAccountListClass {
@@ -74,18 +88,33 @@
     margin: 0;
     border: none;
     width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+.kcFormGroupClass > * + * {
+    margin-top: 0.25rem;
+}
+
+.kcFormSettingClass {
+    margin: 0;
+}
+
+.kcFormSettingClass > * + * {
+    margin-top: 0;
 }
 
 .kcHeaderClass {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 16px;
 }
 
 .kcHeaderWrapperClass {
     width: fit-content;
     margin: 0 auto;
     padding: 0 !important;
+    color: #000000;
 }
 
 .kcSignUpClass {
@@ -98,17 +127,20 @@
 }
 
 .kcFormCardClass {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .kcHtmlClass {
     background: none;
     background-color: #ffffff;
+}
+
+.kcLocaleMainClass {
+    display: none;
 }
 
 @media (max-width: 767px) {
