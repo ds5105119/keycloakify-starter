@@ -132,6 +132,7 @@
 }
 
 .kcHeaderWrapperClass {
+    font-weight: bold; /* 굵게 */
     width: fit-content;
     margin: 0 auto;
     padding: 0 !important;
@@ -148,7 +149,7 @@
 
 .kcInfoAreaWrapperClass {
     padding: 10px 0 !important;
-    background: none;
+    background-color: #ffffff !important;
 }
 
 .kcFormCardClass {
