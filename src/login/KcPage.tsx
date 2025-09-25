@@ -39,7 +39,6 @@ export default function KcPage(props: { kcContext: KcContext }) {
 }
 
 const classes = {
-    kcInputClass: "",
     kcButtonClass: "",
     kcButtonPrimaryClass: "",
     kcButtonBlockClass: "",
