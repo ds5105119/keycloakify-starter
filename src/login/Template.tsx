@@ -179,6 +179,11 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
                                 </div>
                             </div>
                         )}
+                        <div id="kc-terms" className="text-center">
+                            Fellows에 가입하거나 서비스를 사용하는 것은
+                            <br />
+                            이용약관과 개인정보 보호 정책에 동의하는 것으로 간주합니다.
+                        </div>
                     </div>
                 </div>
             </div>
