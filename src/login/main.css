@@ -30,6 +30,10 @@
     border: 1px solid #aaaaaa;
 }
 
+.kcContentWrapperClass {
+    padding: 0 20px;
+}
+
 .kcFormPasswordVisibilityButtonClass {
     position: absolute;
     top: 50%;
